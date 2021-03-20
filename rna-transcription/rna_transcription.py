@@ -7,5 +7,4 @@ dna_to_rna = dict(
 
 
 def to_rna(dna_strand):
-    mapped_rna = map(lambda letter: dna_to_rna[letter], dna_strand)
-    return "".join(mapped_rna)
+    return "".join([dna_to_rna[letter] for letter in dna_strand])

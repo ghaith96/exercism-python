@@ -1,2 +1,2 @@
 # exercism-python
-my python track solutions for exercism
+my solutions for exercism python track
