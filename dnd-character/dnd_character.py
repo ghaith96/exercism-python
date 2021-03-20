@@ -1,7 +1,7 @@
-from random import randint
+from random import  randint, seed
 from math import floor
 
-
+seed("some random seed")
 class Character:
     def __init__(self):
         self.strength = generate_score()
