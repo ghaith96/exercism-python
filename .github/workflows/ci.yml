@@ -21,10 +21,4 @@ jobs:
         run: "pip install -U pytest"
 
       - name: Run Unit Tests
-        run: "pytest -v | tee result.txt"
-
-      - uses: actions/upload-artifact@v2
-        with:
-          name: unit_tests_results
-          path: result.txt
-
+        run: "pytest -v"
